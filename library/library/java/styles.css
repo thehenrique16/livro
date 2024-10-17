@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s eas,color 0.3s ease;
+}
+
+.container {
+    position: absolute; /* Permite posicionar a div em relação à tela */
+    top: 0; /* Alinha ao topo da tela */
+    left: 0; /* Alinha à esquerda da tela */
+    width: 100%; /* Opcional: define a largura da container */
+    border-bottom: 100px; /* Se necessário, ajuste ou remova esta propriedade */
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 20px; /* Adiciona espaçamento interno, se necessário */
+}
+
+
+button { 
+    padding: 10px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #320d76;
+    color: white;
+    border-radius: 5px;
+    transition: background-color color 0.3s ease;
+}
+
+
+.botao-comprar{
+margin-bottom: 6px;
+}
+
+
+.livro, .livro2, .livro3, .livro4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 10px; /* Se necessário, ajuste ou remova esta propriedade */
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efeito de sombra leve */
+}
+
+.livro img {
+    width: 20%;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.descrição_atributos{
+    text-align: center;
+    align-items: left;
+}
+
+
+
+
+
+button:hover {
+    background-color: #330051;
+}
+
+/*Tema claro*/
+.ligth-theme {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+/*Tema escuro*/
+.dark-theme {
+    background-color: #000000;
+    color: #fff;
+}
+
+.botao-comprar {
+    background-color: #623cde;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: end;
+  }
+  
+  .botao-comprar:hover {
+    background-color: #7842ff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Cor de fundo da navbar */
+    padding: 10px 20px; /* Espaçamento interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Cor de fundo da navbar */
+    padding: 10px 20px; /* Espaçamento interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.botao-comprar {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+
+
